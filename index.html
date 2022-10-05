@@ -4,44 +4,42 @@
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
         <meta name="description" content="" />
-        <meta name="author" content="" />
+        <meta name="Elieth" content="" />
         <title>E&A</title>
-        <!-- Favicon-->
-        <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
         <link href="css/styless.css" rel="stylesheet" />
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     </head>
     <body>
        
-        <!-- Header-->
-        <header class="masthead d-flex align-items-center">
-            <div class="container px-4 px-lg-5 text-center">
-                <audio src="/assets/sound/salioalaperfeccion.mp3" type="audio/mpeg" controls></audio>
-                <a href=" https://quizizz.com/admin/quiz/632bc742962669001e722419?source=quiz_share" target="_blank"><button type="button" class="btn btn-success btn-lg btn-block">QUIZZ</button></a>
-                <button data-target="#modal" data-toggle="modal" type="button" class="btn btn-info btn-lg btn-block">VIDEO</button>
-            </div>
-            <div class="modal fade"  id="modal" tabindex="-1" role="dialog">
-                <div class="modal" tabindex="-1" role="dialog">
-                    <div class="modal-dialog" role="document">
-                      <div class="modal-content">
-                        <div class="modal-header">
-                          <h5 class="modal-title"></h5>
-                          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                            <span aria-hidden="true">&times;</span>
-                          </button>
-                        </div>
-                        <div class="modal-body">
-                          <video src="/assets/sound/ea_video.mp4"></video>
-                        </div>
-                        <div class="modal-footer">
-                          <button type="button" class="btn btn-primary">Save changes</button>
-                          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-            </div>
-            
-        </header>
+        <div class="container px-4 px-lg-5 text-center" id="content">
+            <audio controls>
+                 <source src="/assets/sound/salioalaperfeccion.mp3" type="audio/mp3">
+            </audio>
+            <a href=" https://quizizz.com/admin/quiz/632bc742962669001e722419?source=quiz_share" target="_blank"><button type="button" class="btn btn-success btn-lg btn-block btn2">QUIZZ</button></a>
+            <button data-target="#modal" data-toggle="modal" type="button" class="btn btn-info btn-lg btn-block bnt3">VIDEO</button>
+        </div>
+  
+  <!-- Modal -->
+  <div class="modal fade" id="modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel"></h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+            <video width="320" height="240" controls>
+                <source src="/assets/sound/ea.mp4" type="video/mp4">
+            </video>
+        </div>
+      </div>
+    </div>
+  </div>
+        
     </body>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 </html>

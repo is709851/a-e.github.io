@@ -68,8 +68,10 @@
 *::after {
   box-sizing: border-box;
 }
-
-
-#btn{
+#content{ 
+    padding-top: 20px;
+}
+.btn{
     border-color: #ced4da;
+    margin-top: 15px;
 }
